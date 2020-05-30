@@ -1,0 +1,21 @@
+-- 1
+try{
+
+} catch() {
+}
+
+Onde no try você coloca o código que possa conter algum erro e precisa ser testado e no catch você lança a exceção.
+
+
+-- 2
+Exceções não checkadas: Representam defeitos no programa.
+São subclasses de RuntimeException e são normalmente implementadas usando IllegalArgumentException, NullPointerException ou IllegalStateException.
+
+Exceções checkadas: Representam condições inválidas em áreas fora do controle imediato do programa (problemas de entradas inválidas do usuário, banco de dados, falhas de rede, arquivos ausentes).
+São subclasses de Exception.
+
+-- 3
+Checadas herdam os metodos de Throwable e podem criar uma classe de exceção usando o extends Exception. As não checadas herdam os metodos de RuntimeException.
+
+--4
+Não, por serem genéricas não conseguem realizar o tratamento preciso da exceção.
